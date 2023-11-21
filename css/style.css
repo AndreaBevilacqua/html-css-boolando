@@ -12,16 +12,24 @@
     display: flex;
 }
 
+
 /* Generics */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+img {
+    max-width: 100%;
+}
+
+/* Header */
 
 header {
     background-color: #FF6900;
@@ -52,6 +60,17 @@ ol {
     gap: 10px;
 }
 
+/* Main */
+
+
+.row {
+    gap: 10px;
+}
+
+.col {
+    flex-basis: calc(100% / 3);
+    border: 1px solid black;
+}
 
 
 
