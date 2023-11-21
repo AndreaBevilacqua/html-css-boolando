@@ -12,6 +12,10 @@
     display: flex;
 }
 
+.stb.left-0 {
+    left: 0;
+}
+
 
 /* Generics */
 
@@ -27,6 +31,7 @@ body {
 
 img {
     max-width: 100%;
+    display: block;
 }
 
 /* Header */
@@ -36,6 +41,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
 
 .navbar {
@@ -66,12 +72,48 @@ ol {
 
 .row {
     gap: 10px;
+    margin-bottom: 30px;
 }
 
 .col {
     flex-basis: calc(100% / 3);
-    border: 1px solid black;
 }
+
+.card {
+    position: relative;
+}
+
+.heart {
+    background-color: white;
+    padding: 2px 15px;
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.discount {
+    background-color: red;
+    padding: 3px 12px;
+    font-size: 13px;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    color: white;
+}
+
+.stb {
+    background-color: green;
+    padding: 3px 12px;
+    font-size: 13px;
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    color: white;
+}
+
+
+
 
 
 
