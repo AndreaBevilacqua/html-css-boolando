@@ -1,0 +1,65 @@
+/* css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utils */
+
+.flex {
+    display: flex;
+}
+
+/* Generics */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #FF6900;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+ol {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+}
+
+#logo {
+    height: 30px;
+}
+
+.right {
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
